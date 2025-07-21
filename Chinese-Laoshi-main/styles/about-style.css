@@ -1,0 +1,400 @@
+/*about.html styles*/
+
+:root{
+    --black-clr: #333;
+    --theme-clr: #e53e3e;
+    --select-clr:#d53030;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #333;
+    background: 
+        linear-gradient(45deg, #fceff0 25%, transparent 25%),
+        linear-gradient(-45deg, #fceff0 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #fceff0 75%),
+        linear-gradient(-45deg, transparent 75%, #fceff0 75%);
+    background-size: 50px 70px;
+    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+}
+
+/*1st section*/
+
+.story-badge {
+    background-color:#fecaca;
+    color:#ce555b;
+    font-size: 0.9rem;
+    font-weight: 650;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 0.2px solid var(--theme-clr);
+    border-radius: 20px;
+    padding: 0px 8px;
+    margin-bottom: 0.75rem;
+}
+
+.heading {
+   padding: 160px 0 0;
+   text-align: center;
+}
+
+.heading-container {
+   max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+#heading-title{
+    font-size: 3rem;
+}
+
+span{
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 8px;
+
+}
+
+#para1{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6; 
+}
+
+/*2nd section1*/
+
+.heading2{
+    margin-top: 4rem;
+}
+
+#para2{
+    margin-bottom: 20px;
+}
+
+.mission-badge {
+    background-color:#fdecb9;
+    color:#cb8333;
+    font-size: 0.9rem;
+    font-weight: 650;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 0.2px solid rgb(200, 131, 29) ;
+    border-radius: 20px;
+    padding: 0px 8px;
+    margin-bottom: 1rem;
+}
+
+.heading2-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 10px 4rem;
+    padding: 4rem;
+}
+.grid1{
+    align-self: center;
+}
+
+#heading2-title {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.icons .icon-text {
+  display: flex;
+  align-items: center;    
+  gap: 8px;            
+  margin-bottom: 12px; 
+}
+
+.icons .icon-text p {
+  margin: 0;             
+}
+
+.icons i{
+    color: #f5a723;
+}
+
+.grid2 img{
+    border-radius: 16px;;
+}
+
+/*3rd section*/
+
+.heading3 {
+   margin: 4rem 0 0;
+   text-align: center;
+}
+
+#heading3-title {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+#para3{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6; 
+}
+
+.team-badge {
+    background-color:rgb(249, 180, 249);
+    color:purple;
+    font-size: 0.9rem;
+    font-weight: 650;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 0.2px solid purple ;
+    border-radius: 20px;
+    padding: 0px 8px;
+    margin-bottom: 0.75rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin: 10px 4rem;
+    padding: 4rem;
+}
+
+.team-avatar img{
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.team-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    padding-bottom: 20px;
+}
+
+.team-info {
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.team-role {
+    color: #ef4444;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.team-description {
+    color: #6b7280;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/*4th section*/
+
+.last{
+   margin: 4rem 0 0;
+   text-align: center;
+}
+
+.value-badge {
+    background-color:rgb(175, 238, 175);
+    color:green;
+    font-size: 0.9rem;
+    font-weight: 650;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 0.2px solid green ;
+    border-radius: 20px;
+    padding: 0px 8px;
+    margin-bottom: 0.75rem;
+}
+
+.heading4-title {
+    font-size: 2rem;
+    color: #1f2937;
+}
+
+.values-grid{
+    margin: 2rem 4rem 9rem;
+    padding: 40px;
+    height: 300px;
+    display: flex;
+    gap: 2rem;  
+}
+
+.value-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--theme-clr);
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.sub-text{
+    margin-top: 12px;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6; 
+}
+
+@media (max-width: 1024px) {
+  .heading-container,
+  .heading2-grid,
+  .team-grid,
+  .values-grid {
+    margin: 0 2rem;
+    padding: 2rem;
+  }
+
+  .values-grid {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .value-box {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    padding: 80px 0 0;
+  }
+
+  #heading-title,
+  span {
+    font-size: 2.2rem;
+  }
+
+  #para1,
+  #para2,
+  #para3,
+  .team-description,
+  .sub-text {
+    font-size: 0.95rem;
+  }
+
+  .heading2-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .grid2 img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .team-avatar img {
+    padding: 10px;
+  }
+
+  .values-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .value-box {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .card-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .team-name {
+    font-size: 1.2rem;
+  }
+
+  .team-role {
+    font-size: 0.95rem;
+  }
+
+  .team-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #heading-title,
+  span {
+    font-size: 1.8rem;
+  }
+
+  .story-badge,
+  .mission-badge,
+  .team-badge,
+  .value-badge {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+  }
+
+  .value-box {
+    padding: 1.5rem;
+  }
+
+  .sub-text {
+    font-size: 0.9rem;
+  }
+
+  .team-info {
+    padding: 1.5rem;
+  }
+}
